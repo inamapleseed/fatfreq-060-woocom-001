@@ -1,0 +1,46 @@
+Version 2.11 - February 25th, 2021
+- Minor code improvements
+
+Version 2.10 - November 16th, 2020
+- Minor code improvements
+
+Version 2.9 - August 20th, 2020
+- Fixed: the bug related to the inability to move the uploaded image
+
+Version 2.8 - July 14th, 2020
+- Fixed: VAT does not apply to upload component
+
+Version 2.7 - June 29th, 2020
+- Fixed : issue related to the loss of data linked to the view when the view is updated
+- Fixed : issue related to use the same option name for the custom text and custom upload component
+
+Version 2.6 - June 20th, 2020
+- Minor changes to the code
+
+Version 2.5 - April 20th, 2020
+- Fixed : issue related to the position of the image when customizing a product
+
+Version 2.4 - March 24th, 2020
+- Minor code improvements
+
+Version 2.3 - February 12, 2020
+- Minor code improvements
+
+Version 2.2 - January 13th, 2020
+- Added the possibility to upload an image according to a defined space with no deformation and  all this by taking into account the size of the screen of the electronic device used.
+- Added the possibility to create or modify the parameters of a custom upload component on a separate page.
+- Added the possibility to view the list of the custom upload components.
+- Added the possibility to link a custom upload component to at least one option.
+
+Version 2.1.2 - October 29th, 2018
+- Fixed issue : the bug relative to the extensions of images uploaded
+
+Version 2.1.1 - July 16th, 2018
+- Added the responsible feature
+
+Version 2.1 - Mai 29th, 2018
+- Added the compatibility feature of the addon with the Woocommerce Currency Switcher plugin
+
+Version 2.0 - Mai 02th, 2018
+- Added the compatibility feature of the addon with the multiviews add-on
+- Added ability to select a upload option in the conditional rules

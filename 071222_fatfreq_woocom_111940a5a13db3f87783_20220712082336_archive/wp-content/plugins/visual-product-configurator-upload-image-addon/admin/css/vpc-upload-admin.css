@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #vpc-upload-updater-container
+ {
+   padding: 3px 17px;
+   line-height: 36px;
+   margin-left: 0px;
+   border-left: 5px solid #e14d43 !important;
+ }
+ #vpc-upload-updater-container.done
+ {
+   border-color: #7ad03a !important;
+ }
+ #vpc-run-updater {
+   background: #e14d43;
+   border-color: #d02a21;
+   color: #fff;
+   -webkit-box-shadow: inset 0 1px 0 #ec8a85,0 1px 0 rgba(0,0,0,.15);
+   box-shadow: inset 0 1px 0 #ec8a85,0 1px 0 rgba(0,0,0,.15);
+   text-shadow: none;
+ }
+
+ #vpc-run-updater:focus, #vpc-run-updater:hover {
+   background: #dd362d;
+   border-color: #ba251e;
+   color: #fff;
+   -webkit-box-shadow: inset 0 1px 0 #e8756f;
+   box-shadow: inset 0 1px 0 #e8756f;
+ }
+
+ .upload_loading
+ {
+   background: url('./../images/spinner.gif') 10% 10% no-repeat transparent;
+   background-size: 111%;
+   width: 32px;
+   height: 40px;
+   display: inline-block;
+ }
+
+ div.omodal-content{
+  width: fit-content;
+}
+
+.table-fixed-layout{
+  table-layout: auto !important;
+}
+
+.o-metabox-container input[type=number],
+.o-metabox-container input[type=text],
+.o-metabox-container textarea,
+.o-metabox-container select{
+  width: fit-content !important;
+}
+
+table.striped.custom_multi_views_image_top.widefat.repeatable-fields-table tr td input[type=number],
+table.striped.custom_multi_views_image_left.widefat.repeatable-fields-table tr td input[type=number],
+table.striped.custom_multi_views_image_width.widefat.repeatable-fields-table tr td input[type=number],
+table.striped.custom_multi_views_image_height.widefat.repeatable-fields-table tr td input[type=number],
+table.striped.custom_multi_views_image_prices.widefat.repeatable-fields-table tr td input[type=number]{
+  width: 50px !important;
+}
+
+table.striped.custom_multi_views_image_top.widefat.repeatable-fields-table tr td select,
+table.striped.custom_multi_views_image_left.widefat.repeatable-fields-table tr td select,
+table.striped.custom_multi_views_image_width.widefat.repeatable-fields-table tr td select,
+table.striped.custom_multi_views_image_height.widefat.repeatable-fields-table tr td select,
+table.striped.custom_multi_views_image_prices.widefat.repeatable-fields-table tr td select{
+  width: fit-content !important;
+}
+
+#vpc-upload-component-container input[type=number] {
+  width: 100% !important;
+}
+
+.omodal-body:not(.custom_upload_bloc) .vpc-upload-component-column
+{
+    display: none;
+}
+
+.omodal-body:not(.default_bloc) .vpc-view-column,
+.omodal-body:not(.default_bloc) .vpc-icon-column,
+.omodal-body:not(.default_bloc) .vpc-image-column,
+.omodal-body:not(.default_bloc) .vpc-option-price-column,
+.omodal-body:not(.default_bloc) .vpc-product-selector-column,
+.omodal-body:not(.default_bloc) .vpc-default-column
+{
+    display: none;
+}
+
+.omodal-body:not(.custom_multiple_upload_bloc) .vpc-views-upload-component-column,
+.omodal-body:not(.custom_multiple_upload_bloc) .vpc-views-price-column
+{
+    display: none;
+}

@@ -1,0 +1,25 @@
+.woocommerce-Price-amount,.from, .price,.total,.amount, .bundle_price, .wc-pao-col2, .product-selector__price {
+     display: none ;
+
+ }
+
+.single-product div.product form.cart .single_add_to_cart_button{
+    /*display: none ;*/
+}
+.woocommerce-Price-amount, .price,.total, .bundle_price,.amount, .wc-pao-col2,.wc-pao-subtotal-line, .product-selector__price {
+
+    opacity: 0 !important;
+}
+
+
+.gpls_rfq_set {
+    display: inline-block !important;
+}
+
+.xcp-ctotal .amount {
+    display: none;
+}
+.xcp-totxt,.xcp-ctotal,.xoo-cp-cart-total {
+    display: none;
+}
+

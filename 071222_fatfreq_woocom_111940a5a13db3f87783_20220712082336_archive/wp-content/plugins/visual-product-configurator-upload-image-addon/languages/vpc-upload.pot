@@ -1,0 +1,61 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vpc\n"
+"POT-Creation-Date: 2021-02-25 18:31+0100\n"
+"PO-Revision-Date: 2016-11-07 11:31+0100\n"
+"Last-Translator: ORION TEAM <support@orionorigin.com>\n"
+"Language-Team: ORION <support@orionorigin.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-vpc-upload-admin.php:132
+msgid "Upload image add on license key"
+msgstr ""
+
+#: ../admin/class-vpc-upload-admin.php:135
+msgid "This is the licence key you received after your purchase.<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>. <a href=“https://configuratorsuiteforwp.com/my-account/orders/“ target=“blank”>Where can I find my license key</a>?"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:56
+msgid "Downloading package from ORION servers..."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:62
+msgid "Error! Can't connect to filesystem"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:68
+msgid "A license key is required to receive automatic updates (<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>). Please visit <a href=“https://configuratorsuiteforwp.com/my-account/orders/“ target=“blank”>your account</a> to retrieve it."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:94
+#: ../includes/updaters/class-vpc-upload-updater.php:98
+msgid "Error! No file found. Please contact the plugin owners."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:119
+msgid "Error on unzipping package"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updater.php:121
+msgid "Wrong license key provided. Please add the correct one and try again."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updating-manager.php:132
+msgid "Unable to retrieve the update details. Please check your connection and try again."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updating-manager.php:172
+msgid "Update Visual Products Configurator Image Upload Add-on now."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-upload-updating-manager.php:175
+msgid "You need a licensee key to update this plugin. This is the license key you received after your purchase.<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>."
+msgstr ""

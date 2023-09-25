@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+table#ofb-config-components-table {
+    width: 100%;
+    overflow: auto;
+}
+
+.o-metabox-container table,
+table#ofb-config-components-table,
+table#ofb-config-components-table thead,
+table#ofb-config-components-table tr {
+    width: 100%!important;
+}
+
+#form_selection table.widefat {
+    border-top: 0 none;
+}
+.omodal-body table#manage  thead td:first-child,.omodal-body table#manage  tbody td:first-child{
+    display: block !important;
+}

@@ -1,0 +1,112 @@
+/**
+* All of the CSS for your public-specific functionality should be
+* included in this file.
+*/
+.img_upload_preview{
+  z-index: 5;
+}
+
+[id^="text_panel"] {
+  z-index: 5;
+}
+[id^="upload_panel"] {
+  z-index: 4;
+}
+
+[id^="text_panel"] div{
+  display: inline-block;
+  position: absolute;
+  transform-origin: 0% 0%;
+  z-index: 5;
+}
+[id^="upload_panel"] img{
+  position: relative;
+}
+
+.custom-uploader.userfile_upload_form, .drop {
+  display: block;
+  width: auto;
+  float: left;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-uploader.userfile_upload_form input[type='file'],
+.drop a {
+  display: none;
+}
+
+.drop label,
+.acd-upload-info {
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.drop label{
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.acd-upload-info {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  overflow: hidden;
+}
+
+.acd-upload-info.choosed:before {
+  /* content: 'x'; */
+  color: #333;
+  font-size: 12px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.vpc-options .acd-upload-info img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  top: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.vpc-options .acd-upload-info img[src=""] {
+  display: none;
+}
+
+.opt_descr{
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.vpc-global-preview {
+  position: relative;
+  display: inline-block;
+}
+
+#upload_panel {
+  float: left;
+}
+
+.img_upload_preview_wrap{
+  position: absolute;
+}
+
+.upload_in_pause {
+  background: url('../images/upload.svg') center center no-repeat;
+}

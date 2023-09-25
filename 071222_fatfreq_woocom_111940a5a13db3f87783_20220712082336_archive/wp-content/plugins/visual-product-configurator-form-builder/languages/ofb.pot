@@ -1,0 +1,170 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: vpc\n"
+"POT-Creation-Date: 2021-02-25 20:25+0100\n"
+"PO-Revision-Date: 2016-11-07 11:31+0100\n"
+"Last-Translator: ORION TEAM <support@orionorigin.com>\n"
+"Language-Team: ORION <support@orionorigin.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-ofb-admin.php:93
+msgid "Form builder add on license key"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:96
+msgid "This is the licence key you received after your purchase.<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>. <a href=“https://configuratorsuiteforwp.com/my-account/orders/“ target=“blank”>Where can I find my license key</a>?"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:114 ../admin/class-ofb-admin.php:128
+#: ../admin/class-ofb-admin.php:182
+msgid "Form settings"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:115
+msgid "Parent Form:"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:116
+msgid "All Forms"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:117
+msgid "View Forms"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:118
+msgid "Add New Form"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:119
+msgid "Add New"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:120
+msgid "Edit Form"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:121
+msgid "Update Form"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:122
+msgid "Search Form"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:123
+msgid "Not found"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:124
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:127
+msgid "ofb"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:201
+msgid "Type"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:223
+msgid "Length"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:230 ../admin/class-ofb-admin.php:270
+msgid "Label"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:236
+msgid "Name"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:243
+msgid "Required"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:255 ../admin/class-ofb-admin.php:262
+msgid "Price"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:277
+msgid "Option value"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:284
+msgid "Default"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:293 ../admin/class-ofb-admin.php:303
+msgid "Options"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:299
+msgid "Field options"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:302
+msgid "Manage options"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:304
+msgid "Add option"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:308
+msgid "Components"
+msgstr ""
+
+#: ../admin/class-ofb-admin.php:315
+msgid "Add field"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:56
+msgid "Downloading package from ORION servers..."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:62
+msgid "Error! Can't connect to filesystem"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:68
+msgid "A license key is required to receive automatic updates (<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>). Please visit <a href=“https://configuratorsuiteforwp.com/my-account/orders/“ target=“blank”>your account</a> to retrieve it."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:94
+#: ../includes/updaters/class-vpc-ofb-updater.php:98
+msgid "Error! No file found. Please contact the plugin owners."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:119
+msgid "Error on unzipping package"
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updater.php:121
+msgid "Wrong license key provided. Please add the correct one and try again."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updating-manager.php:132
+msgid "Unable to retrieve the update details. Please check your connection and try again."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updating-manager.php:172
+msgid "Update Visual Product Configurator Form Builder Add-On now."
+msgstr ""
+
+#: ../includes/updaters/class-vpc-ofb-updating-manager.php:175
+msgid "You need a licensee key to update this plugin. This is the license key you received after your purchase.<a href=“https://configuratorsuiteforwp.com/guide/how-to-add-my-license/” target=“_blank”>Learn more</a>."
+msgstr ""
+
+#: ../includes/utils.php:513
+msgid "Add"
+msgstr ""

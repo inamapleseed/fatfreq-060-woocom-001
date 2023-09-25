@@ -1,0 +1,939 @@
+
+$b: #000
+$w: #fff
+$t: transparent
+$poppin: 'Poppins', sans-serif
+$mont: 'Montserrat', sans-serif
+
+#top-menu
+    a
+        font-family: $poppin
+
+#main-header
+    box-shadow: none !important
+    background: $t
+    .et_menu_container
+        background: $t
+        width: 90%
+
+#page-container
+    background: $b
+
+#top-menu-nav
+    width: inherit
+
+.et_builder_inner_content
+    .et_pb_section
+        background: $b
+
+h1, h2, h3, h4, h5, h6, a
+    color: $w !important
+
+#main-content
+    background: $b
+
+    &.artist-collabs
+        @media (min-width: 768px) and (max-width: 1100px)
+            > .container
+                width: 93%
+
+        .artist-box
+            margin-bottom: 30px
+            &:first-of-type
+                margin-top: 55px
+
+            @media (min-width: 768px)
+                display: flex
+                .img-box
+                    width: calc((100% / 3) - 16px)
+
+                .center
+                    width: calc((100% / 3) - 30px)
+                    margin: 0 15px
+                    .le-btn
+                        margin-bottom: 37px
+                
+                .image-right
+                    margin-left: 16px
+                .image-left
+                    margin-right: 16px
+
+            @media (max-width: 767px)
+                flex-direction: column
+                display: flex
+                .center
+                    order: 1
+                    .le-btn
+                        margin-bottom: 30px
+                    
+                    .desc
+                        margin-bottom: 15px
+
+                .image-left
+                    order: 2
+                .image-right
+                    order: 3
+                > *
+                    margin-bottom: 15px
+            
+            .center
+                img
+                    max-width: 41%
+                    margin: 20px auto 30px
+
+                .le-btn
+                    color: $b !important
+                    padding: 11px 12px
+                    font-weight: 600
+                    font-size: 13px
+                    display: inline-block
+                    min-width: 135px
+                
+                .desc
+                    line-height: 2
+                    padding: 0 15px
+
+            .img-box
+                img
+                    max-width: 100%
+
+            // .image-right
+            // .center
+            // .image-left
+
+    &.our-tech
+        .main_title
+            font-size: 36px
+        .tech-box
+            display: flex
+            margin-bottom: calc(20px + (80 - 20) * (100vw - 320px) / (1920 - 320))
+            .left-con
+                img
+                    max-width: 100%
+            .right-con
+                h3
+                    font-weight: bold
+                    font-size: 24px
+                .desc
+                    line-height: 2
+
+            &:first-of-type
+                margin-top: calc(40px + (80 - 40) * (100vw - 320px) / (1920 - 320))
+
+            @media (min-width: 991px)
+                > *
+                    width: calc((100% / 2) - 35px)
+                .right-con
+                    h3
+                        margin-bottom: 25px
+                &.image-on-right
+                    .left-con
+                        margin-left: 35px
+                        order: 2
+                    .right-con
+                        margin-right: 35px
+                        order: 1
+                &.image-on-left
+                    .left-con
+                        margin-right: 35px
+                    .right-con
+                        margin-left: 35px
+
+                .right-con
+                    display: flex
+                    justify-content: center
+                    flex-direction: column
+
+            @media (max-width: 990px)
+                flex-direction: column
+                .left-con
+                    margin-bottom: 20px
+                .right-con
+                    margin-bottom: 20px
+
+    &.about-us
+        > .container
+            @media (min-width: 991px)
+                margin-right: 0
+                width: 92%
+
+        .about-box
+            display: flex
+            @media (min-width: 991px)
+                align-items: center
+                .left-con
+                    width: 30%
+                .right-con
+                    width: 61%
+                    margin-left: auto
+
+            @media (max-width: 990px)
+                flex-direction: column
+                .left-con
+                    margin-bottom: 25px
+
+            .left-con
+                .desc
+                    line-height: 2
+                h3
+                    font-size: calc(25px + (40 - 25) * (100vw - 320px) / (1920 - 320))
+                    line-height: .7
+                    *
+                        font-family: $mont
+
+                > p
+                    font-family: $mont
+                    font-weight: 500
+                    line-height: 2
+
+.my-page-heading
+    text-align: center
+
+    .main_title
+        font-weight: bold
+        margin-bottom: 0
+
+.shoppage-container
+    .woocommerce-ordering, .itemsorder
+        display: none !important
+
+.fidelius
+    display: none
+
+.archive
+    #main-content
+        > .container
+            width: 100%
+
+.category-tabs-con
+    display: flex
+    text-align: center
+    flex-wrap: wrap
+    .category-tab
+        font-weight: bold
+        display: block
+        padding: 15px
+        font-size: 25px
+        &:hover, &.active
+            color: #000 !important
+            opacity: 1 !important
+            border: 1px solid #000
+
+        @media (min-width: 768px)
+            width: calc((100%/3) - 10px)
+            border-bottom: 1px solid transparent
+            border-top-left-radius: 20px
+            border-top-right-radius: 20px
+            margin: 0 5px
+            &:first-of-type 
+                margin-left: 0
+            &:last-of-type 
+                margin-right: 0
+
+        @media (max-width: 767px)
+            width: 100%
+			
+.page-category-listing
+    .entry-content
+        .et_pb_row
+            width: 100%
+
+    .ct-big
+        border-radius: 0
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 30px
+        padding: calc(50px + (237 - 50) * (100vw - 320px) / (1920 - 320)) 50px
+        div
+            text-align: right
+            line-height: 1
+            > *
+                color: black
+            .desc
+                font-size: calc(13px + (24 - 13) * (100vw - 320px) / (1920 - 320))
+                font-weight: bold
+            .cat-title
+                font-size: calc(32px + (160 - 32) * (100vw - 320px) / (1920 - 320))
+                font-weight: bold
+                transition: .3s ease
+        &:hover
+            opacity: 1
+            .cat-title
+                color: white
+
+.contact-us
+    .et_section_regular
+        .et_pb_row_0
+            padding-bottom: 30px
+
+            @media (min-width: 991px)
+                width: 62%
+        .et_pb_row_1
+            margin-bottom: 10px
+        
+    .et_pb_accordion
+        @media (min-width: 991px)
+            margin-bottom: 40px !important
+        .et_pb_toggle
+            margin-bottom: 0
+            padding: 0
+
+            &:not(:first-of-type)
+                border-top: none
+
+            .et_pb_toggle_title
+                font-weight: 500
+                @media (min-width: 768px)
+                    font-size: 20px
+                    padding: 16px 22px
+                @media (max-width: 767px)
+                    font-size: 14px
+                    padding: 13px 16px
+
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 0
+                    height: 0
+                    border-style: solid
+                    border-width: 5px 5.5px 0 5.5px
+                    border-color: #fff transparent transparent transparent
+                    margin-right: 25px
+                    margin-top: 0
+                    transition: .3s ease
+
+            .et_pb_toggle_content
+                padding: 16px 22px
+                background: black
+                p
+                    line-height: 2
+                    font-weight: 500
+                    font-family: $mont
+
+            &.et_pb_toggle_open
+                .et_pb_toggle_title
+                    border-bottom: 1px solid #ccc
+                    &::before
+                        transform: rotate(180deg)
+
+    iframe
+        border-radius: 8px
+
+    @media (min-width: 991px)
+        .et_pb_column_2_5
+            width: 32.3%
+        .et_pb_column_3_5
+            width: 62%
+        
+    form
+        > .input-2col-warpper
+            input
+                height: 44px
+                margin: 10px 0 6px !important
+            @media (max-width: 767px)
+                > span
+                    width: 100%
+                    margin: 0
+        > .input-2col-warpper, > .input-warpper
+            input, textarea
+                padding-left: 13px !important
+                &::placeholder
+                    color: grey
+                    font-size: 12px
+                    font-family: $mont
+                    font-weight: 500
+            @media (max-width: 767px)
+                textarea
+                    &::placeholder
+                        padding-top: 8px
+
+        .btn-container
+            @media (min-width: 768px)
+                justify-content: space-between
+                .recaptcha
+                    transform-origin: left
+                p
+                    width: 150px
+                    display: flex
+                    justify-content: center
+            @media (max-width: 767px)
+                flex-direction: column
+                .recaptcha
+                    transform-origin: center
+                .btn
+                    margin: 0
+                .ajax-loader
+                    display: none
+
+        h2
+            font-family: $mont
+            font-weight: 800
+            font-size: 23px            
+        h6
+            font-family: $mont
+            font-size: 12.5px
+            padding: 3px 0 12px 2px
+
+    .contact-detail
+        table
+            border: none !important
+            *
+                border: none !important
+            td
+                width: auto !important
+                padding: 0 5px 0 0 !important
+        *
+            font-family: $mont
+            font-weight: 500
+            font-size: 12px
+
+    h1
+        letter-spacing: 1px
+        span
+            font-size: 35px !important
+
+    .section-title
+        h4
+            font-size: 22px
+            font-family: $mont
+            font-weight: 800
+            padding-bottom: 13px
+            *
+                font-weight: 800
+
+            + p
+                font-family: $mont
+                font-weight: 500
+                font-size: 12px
+
+#main-footer
+    padding-top: calc(30px + (75 - 30) * (100vw - 375px) / (1900 - 375))
+    position: relative
+    z-index: 1
+
+    .footer-content
+        text-align: center
+        .sub-menu
+            flex-direction: column
+            margin-top: 15px
+            li
+                width: 100% !important
+                padding: 0 !important
+
+        @media (max-width: 767px)
+            &.social-container
+                width: 100% !important
+                margin-top: 25px                
+
+    .et_pb_column_1_2
+        .et_pb_text_inner
+            p
+                font-size: calc(18px + (37 - 18) * (100vw - 375px) / (1900 - 375))
+                font-family: $mont
+                font-weight: 500
+                strong
+                    font-weight: 800
+
+    .newsletter-input
+        display: flex
+        flex-wrap: wrap
+        *
+            font-family: $mont
+        label
+            input
+                background: transparent
+                color: $w
+                width: 100%
+                padding: 18px 20px
+                border: 1px solid $w 
+                &::placeholder
+                    color: $w
+
+        > input
+            border: 1px solid $w
+            box-shadow: none
+            background: $w
+            cursor: pointer
+            font-weight: 500
+        @media (min-width: 768px)
+            label
+                width: 65%
+                margin-left: 5%
+            > input
+                width: 30%
+        @media (max-width: 767px)
+            label, > input
+                width: 100%
+            input
+                height: 50px
+                width: auto
+                padding: 0 20px
+                margin: 5px auto 0
+
+    #footer-bottom
+        ul
+            justify-content: center
+            li
+                margin: 0 5px
+                @media (min-width: 991px)
+                    &:not(:last-of-type)
+                        &::after
+                            content: '|'
+
+.shoppage-container
+    .right
+        margin: auto
+        width: 84%
+    .products
+        .product
+            *
+                font-family: 'Montserrat', sans-serif !important
+
+            &:hover
+                background: $t !important
+                .short-desc
+                    opacity: 1
+        
+            .button, .et_overlay
+                display: none !important
+
+            .more-info
+                font-size: 14px
+                font-weight: 500
+                padding-bottom: 15px
+
+            .short-desc
+                overflow: auto
+                display: -webkit-box
+                -webkit-line-clamp: 2
+                -webkit-box-orient: vertical
+                opacity: 0    
+                transition: .3s ease           
+                *
+                    font-weight: 500
+                    font-size: 14px
+        
+        @media (max-width: 991px)
+            width: 90%
+            margin: auto !important
+
+.product
+    *
+        font-family: 'Montserrat', sans-serif !important
+
+    .button
+        &:hover
+            background: $t !important
+
+    &:hover
+        background: $t !important
+    
+.woocommerce-checkout #payment, .vpc-cart-component, .vpc-cart-options
+    background: $t !important
+
+.checkout-button, .woocommerce-Button
+    &:hover
+        color: $b !important
+
+.footer-top
+    > .container
+        width: 95%
+
+.single-product-container
+    *
+        font-family: $mont
+    .entry-summary
+        @media (min-width: 768px)
+            padding-left: 10px
+        .more-info
+            font-size: 16px
+            font-weight: 500
+            padding-bottom: 5px
+        h1
+            padding-bottom: 0 !important
+
+        .price
+            del
+                *
+                    color: #fff !important
+            ins
+                *
+                    color: #AB102D
+    
+        @media (max-width: 767px)
+            display: inline-block !important
+
+    .woocommerce-product-details__short-description
+        line-height: 2
+
+    .qib-container, .qty
+        display: none !important
+
+    .share-container
+        > span
+            color: $w
+            font-size: 13px !important
+            width: auto
+        .at-icon-wrapper
+            background: $t !important
+            svg
+                fill: $w !important
+
+    .images
+        @media (max-width: 767px)
+            .wpgis-slider-for, #wpgis-gallery
+                width: 100% !important
+                margin: 10px auto !important
+        #wpgis-gallery
+            .thumb-nav
+                display: flex
+                justify-content: center
+                font-size: 22px
+                &.prev
+                    margin-bottom: 15px                    
+                &.next
+                    margin-top: 15px
+
+            li
+                margin-bottom: 10px
+
+        .vertical-img-left.wpgis-slider-for
+            margin-left: 10%
+            margin-right: 3%
+            width: 73%
+
+        .wpgis-slider-for
+            .dashicons
+                display: none !important
+
+    .woocommerce-tabs
+        display: none
+
+    .clearfix
+        .berocket_better_labels
+            width: 75%
+            margin-left: auto
+
+.attr-row
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    margin: 20px 0 40px
+
+    @media (min-width: 768px)
+        &.img-right
+            .image
+                order: 2
+
+            .infos
+                order: 1
+                padding-right: calc(30px + (100 - 30) * (100vw - 320px) / (1920 - 320))
+
+        &.img-left
+            .image
+                order: 1
+
+            .infos
+                order: 2
+                padding-left: calc(30px + (100 - 30) * (100vw - 320px) / (1920 - 320))
+
+    > div
+        @media (min-width: 768px)
+            width: calc(100% / 2)
+    
+    .image
+        img
+            max-width: 100%
+
+    .infos
+        *
+            font-family: $mont
+            color: $w !important
+
+        .title
+            font-weight: 800
+            font-size: 23px
+            margin-bottom: 20px
+
+        .description
+            font-weight: 500
+            line-height: 2
+
+        @media (max-width: 767px)
+            margin-bottom: 15px
+
+.berocket_better_labels
+    span
+        border-radius: 50%
+        height: 55px !important
+        width: 55px !important
+        text-transform: uppercase
+        margin-left: 10px !important
+        font-size: 13px
+        @media (max-width: 767px)
+            transform-origin: top left
+            transform: scale(.6)
+            font-size: 12px
+            margin-top: 8px
+            margin-left: 8px
+
+.vpc-configure-button
+    text-align: center
+    &:hover
+        color: $b !important
+@media (max-width: 767px)
+    .vpc-configure-button
+        margin-top: 10px !important
+        margin-right: 10px !important
+
+    .single_add_to_cart_button
+        margin-top: 10px !important
+        margin-left: 0 !important
+        margin-right: 10px !important
+
+#vpc-container
+    @media (min-width: 991px)
+        width: 80%
+        margin: auto
+
+        #vpc-preview-wrap
+            width: 50%
+            margin-left: 15%
+
+    .vpc-options
+        background: $t
+    .vpc-global-preview
+        background: $w
+
+    #vpc-components
+        margin-top: 0 !important
+        *
+            font-family: $mont
+
+        .vpc-component
+            margin-bottom: 15px
+            border-top: 1px solid $w
+            padding: 20px
+            
+            .vpc-component-header
+                font-weight: 800
+                color: $w
+                .vpc-selected
+                    font-weight: 600
+                > span
+                    padding-left: 0 !important
+
+            .vpc-group
+                padding-left: 0 !important
+                padding-right: 0 !important
+
+            .vpc-group-name
+                font-weight: 600
+                font-size: 14px
+            .custom
+                border-radius: 3px !important
+
+        .vpc-single-option-wrap
+            .userfile_upload_form
+                width: calc(224px + (274 - 224) * (100vw - 320px) / (1920 - 320))
+                border: 1px solid $w
+                background: $w
+        
+    #vpc-price-container
+        display: none
+
+    #vpc-add-to-cart
+        background: $b
+        border: 1px solid $w !important
+        border-radius: 0 !important
+        padding: 15px 30px !important
+        height: 55px !important
+        text-transform: capitalize !important
+        &::after
+            display: none !important
+
+.page-customise-product
+    .main_title
+        text-align: center
+        font-weight: 700
+        font-size: 23px
+
+    .entry-content
+        > div
+            > p
+                text-align: center
+                width: 79%
+                margin: auto auto 40px
+                font-weight: 500
+                line-height: 2
+                b
+                    font-weight: 600
+                    line-height: 2
+
+.page-home
+    .et_pb_section_0
+        padding: 0 !important
+        .et_pb_row_0
+            padding: 0 !important
+            width: 100%
+            max-width: initial
+        
+        .home-about
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            position: relative
+            background: $b
+
+            .text
+                *
+                    font-family: $mont
+                h3
+                    font-size: calc(24px + (40 - 24) * (100vw - 320px) / (1920 - 320))
+
+                > p
+                    font-weight: 500
+                    line-height: 2
+
+                .btn-
+                    padding: 10px 15px
+                    border: 1px solid white
+                    display: block
+                    width: 130px
+                    text-align: center
+                    font-weight: 600
+                    font-size: 13px
+                    margin-top: 15px                    
+
+            @media (min-width: 991px)
+                padding-bottom: 50px
+                .image
+                    width: 57%
+                .text
+                    width: 43%
+
+            @media (max-width: 990px)
+                .image
+                    background-position: bottom !important
+                    background-size: cover !important
+                    img
+                        max-height: 300px
+                > div
+                    width: 100%
+
+            @media (min-width: 768px)
+                .text
+                    padding: 70px
+
+            @media (max-width: 767px)
+                .text
+                    padding: 25px
+
+    .et_pb_section_1
+        padding: 0 !important
+        z-index: 2
+        .et_pb_row.et_pb_row_1
+            width: 100%
+            padding: 50px 0 0
+            max-width: initial
+            .sb_instagram_header.sbi_no_avatar, #sbi_load
+                display: none !important
+
+            .sbi_item
+                &:nth-child(2)
+                    padding: 0 20px !important
+
+.my-slideshow
+    height: 79vh
+    .slick-track, .slick-list
+        height: 100%
+    .btn-
+        padding: 10px 15px
+        border: 1px solid white
+        display: block
+        width: 130px
+        text-align: center
+        font-weight: 600
+        font-size: 13px
+        margin-top: 15px                    
+
+    .slideshow-inner
+        position: relative
+        img
+            height: 100%
+            width: auto
+        .description
+            position: absolute
+            left: 0
+            top: 0
+            right: 0
+            bottom: 0
+            width: 83%
+            margin: auto
+            flex-direction: column
+            display: flex
+            justify-content: center
+            .title
+                letter-spacing: 4px
+                line-height: 1.2
+                p
+                    padding-bottom: 0
+                *
+                    font-family: $mont
+                    font-size: calc(34px + (55 - 34) * (100vw - 320px) / (1920 - 320))
+                    font-weight: 400
+                strong
+                    font-weight: 800
+
+            .desc
+                width: 50%
+                padding-top: 20px
+                padding-bottom: 30px
+                *
+                    font-family: $mont
+                    font-weight: 500
+
+    .slick-nav
+        top: 0
+        bottom: 0
+        height: 100%
+        position: absolute
+        display: flex
+        align-items: center
+        &.right
+            right: 40px
+        &.left
+            left: 40px
+        
+        i
+            font-size: 28px
+
+.woocommerce-message
+    a
+        &:hover
+            color: $b !important
+
+.entry-content thead th, .entry-content tr
+    color: $w !important
+
+#coupon_code
+    &::placeholder
+        font-size: 14px !important
+
+#raf-message
+    border: 1px solid white !important
+    margin-top: 15px
+    a
+        &:hover
+            color: $w !important
+            text-decoration: underline
+
+.product_type_simple
+    @media (max-width: 767px)
+        transform: scale(.7) !important
+        min-width: 0 !important
+
+@media (max-width: 991px)
+    .mobile_nav.opened #mobile_menu
+        background: $b !important

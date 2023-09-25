@@ -1,0 +1,15 @@
+.o-left-offset-2-3{
+    text-align: right;
+}
+@media (max-width: 768px) {
+
+    .o-left-offset-2-3{
+        padding-left:0;
+        text-align: center;
+    }
+}
+@media (max-width: 667px) {
+    .o-left-offset-2-3{
+        padding-left:0;
+    }
+}

@@ -1,0 +1,50 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .formbuilt{
+    font-size: 16px;
+}
+
+.formbuilt div {
+    padding: 13px 0;
+}
+
+ .formbuilt div label{
+    /* padding: 0 15px; */
+    /* font-size: 16px; */
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.formbuilt div textarea {margin-left: -4px;}
+.formbuilt div textarea,
+.formbuilt div select,
+.formbuilt div input[type="text"], 
+.formbuilt div input[type="email"], 
+.formbuilt div input[type="url"], 
+.formbuilt div input[type="password"], 
+.formbuilt div input[type="search"], 
+.formbuilt div input[type="number"], 
+.formbuilt div input[type="tel"] {
+    height: 40px; 
+    width: 50%; 
+    vertical-align: middle;
+    padding: 12px 20px;
+    line-height: normal;
+}
+
+.formbuilt div input[type='radio'],.formbuilt div input[type='checkbox'] {
+    margin: 12px;
+    vertical-align: middle;
+    position: relative;
+    left: 0; /*Compatibilité porto*/
+}
+
+@media all and (max-width:769px) {
+    .formbuilt div label{
+        width: 50%;
+    }
+}

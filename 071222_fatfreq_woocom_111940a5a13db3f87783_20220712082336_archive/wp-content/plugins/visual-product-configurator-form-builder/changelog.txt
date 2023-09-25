@@ -1,0 +1,33 @@
+Version 1.8 - February 25th, 2020
+- Minor code improvements
+
+Version 1.7 - November 16th, 2020
+- Minor code improvements
+
+Version 1.6 - June 11th, 2020
+- Minor changes to the code
+
+Version 1.5 - June 10th, 2020
+-Added : Name added automatically for the form builder fields when the user does not put a name
+
+Version 1.4 - March 22th, 2020
+- Minor code improvements
+
+Version 1.3 - February 12, 2020
+- Minor code improvements
+
+Version 1.2.3 - january 06th, 2020
+- Fixed issue : The bug related to the form validation
+
+Version 1.2.2 - November 26th, 2018
+- Fixed minors bugs
+
+Version 1.2.1 - July 16th, 2018
+- Added the error message in multiples languages
+
+Version 1.2 - June 29th, 2018
+- Added responsive mode
+- Added the possibility to move the elements of the form in the admin
+
+Version 1.1 - Mai 28th, 2018
+- Added the ability to add input type file in the form
